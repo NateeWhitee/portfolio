@@ -180,6 +180,7 @@ footer img {
     .container {
         padding: auto;
         margin: 0;
+        width: 100%;
     }
 
     img {
