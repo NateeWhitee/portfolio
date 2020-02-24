@@ -178,9 +178,8 @@ footer img {
     }
 
     .container {
-        padding: auto;
-        margin: 0;
-        width: 100%;
+        width: 80%;
+        margin: 0 0 0 10%;
     }
 
     img {
@@ -190,6 +189,7 @@ footer img {
     article {
         margin: 0;
         border: none;
+        padding: 0;
     }
 
     article h2 {
