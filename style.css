@@ -152,7 +152,7 @@ footer img {
     }
 
     header {
-        min-height: 205px;
+        min-height: 208px;
     }
     
     header nav {
@@ -161,11 +161,16 @@ footer img {
 
     header nav ul li {
         width: 100%;
+        min-height: 50px;
     }
 
     header nav ul li a:hover:not(.active) {
         color: white;
         border: none;
+    }
+    
+    header nav ul li a:hover {
+        color: white;
     }
 
     .container {
