@@ -109,7 +109,7 @@ article h1 {
     font-size: 38px;
 }
 
-article h2 {
+article .subTitle {
     font-size: 32px;
 }
 
@@ -200,9 +200,9 @@ footer img {
         font-size: 38px;
     }
 
-    article h2 {
+    article .subTitle {
         text-align: center;
-        font-size: 32px;
+        font-size: 24px;
     }
 
     article p {
@@ -232,10 +232,6 @@ footer img {
 
     header {
         background-color: #ffffff;
-    }
-
-    header #pageTitle {
-        display: none;
     }
 
     header nav {
@@ -270,15 +266,16 @@ footer img {
         padding: 25px 0 25px 0;
     }
 
+    article .subTitle {
+        font-size: 24px;
+        text-align: center;
+    }
+
     article p {
         border: none;
     }
 
-    img {
-        display: none;
-    }
-
-    footer {
+    img, embed, footer, header #pageTitle {
         display: none;
     }
 }
